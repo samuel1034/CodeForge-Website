@@ -3,8 +3,8 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
- */
+
+
 
 
 
@@ -37,6 +37,10 @@
   --black_30: hsla(0, 0%, 0%, 0.3);
   --kappel: hsl(170, 75%, 41%);
   --white: hsl(0, 0%, 100%);
+  --primary-color: #ff226f;
+  --primary-color-dark: #fe6769;
+  --text-dark: #333333;
+  --white: #ffffff;
 
   /**
    * gradient color
@@ -1621,3 +1625,150 @@ padding-bottom:50px;
   height: 35px;
 }
 /* ------testimonial  close-------*/
+
+/* Feedback Section */
+
+section.feedback {
+  background-color: #000;
+}
+
+
+@media(min-width:568px){
+  .end{
+      margin-left: auto;
+  }
+}
+
+@media(max-width:768px){
+  #post{
+      width: 100%;
+  }
+}
+#clicked{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+  width: 100%;
+  background-color: #ecb21f;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 13px; 
+}
+
+#profile{
+  background-color: unset;
+  
+} 
+
+#post{
+  margin: 10px;
+  padding: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  background-color: #ecb21f;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 13px;
+  width: 50%;
+}
+
+.comments{
+  margin-top: 5%;
+  margin-left: 20px;
+}
+
+.darker{
+  border: 1px solid #ecb21f;
+  background-color: black;
+  float: right;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+.comment2{
+  border: 1px solid rgba(16, 46, 46, 1);
+  background-color: rgba(16, 46, 46, 0.973);
+  float: left;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 10px;
+  
+}
+.comment2 h4,.comment span,.darker h4,.darker span{
+  display: inline;
+}
+
+.comment2 p,.comment span,.darker p,.darker span{
+  color: rgb(184, 183, 183);
+}
+
+h1,h4{
+  color: white;
+  font-weight: bold;
+}
+label{
+  color: rgb(212, 208, 208);
+}
+
+#align-form{
+  margin-top: 20px;
+}
+.form-group p a{
+  color: white;
+}
+
+#checkbx{
+  background-color: black;
+}
+
+#darker img{
+  margin-right: 15px;
+  position: static;
+}
+
+.form-group input,.form-group textarea{
+  background-color: black;
+  border: 1px solid rgba(16, 46, 46, 1);
+  border-radius: 12px;
+  color: #fff;
+}
+
+form{
+  border: 1px solid rgba(16, 46, 46, 1);
+  background-color: rgba(16, 46, 46, 0.973);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.comment-section {
+  background-color: black; /* Black background color for the feedback section */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 8px; /* Optional: Rounded corners */
+  color: #ffffff; /* White text color for content inside the section */
+}
+.comment {
+  background-color: #ffffff; /* White background for individual comments */
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.darker {
+  background-color: #000; /* Light gray background color for alternating comments */
+}
+#post {
+  background-color: #007bff; /* Primary blue button */
+  color: #ffffff;
+  margin: 20px 0;
+}
+#post:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

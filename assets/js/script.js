@@ -73,3 +73,35 @@ function toggleVideo() {
   }
 }
 
+document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+  var name = document.getElementById('exampleInputName').value;
+  var email = document.getElementById('exampleInputEmail').value;
+  var country = document.getElementById('exampleInputCountry').value;
+  var comment = document.getElementById('exampleInputComment').value;
+  var valid = true;
+
+  if (name.trim() === '') {
+    alert('Por favor, ingrese su nombre y apellido.');
+    valid = false;
+  }
+  
+  if (email.trim() === '') {
+    alert('Por favor, ingrese su correo electrónico.');
+    valid = false;
+  }
+
+  if (country.trim() === '') {
+    alert('Por favor, ingrese su país.');
+    valid = false;
+  }
+
+  if (comment.trim() === '') {
+    alert('Por favor, escriba su comentario.');
+    valid = false;
+  }
+
+  if (!valid) {
+    event.preventDefault();
+  }
+});
+
