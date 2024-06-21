@@ -712,7 +712,7 @@
                         <div class="form-group">
                             <h4>Dejar un comentario</h4>
                             <label for="message">Comentario</label>
-                            <textarea name="comment" id="msg" cols="30" rows="5" class="form-control" style="background-color: black;"></textarea>
+                            <textarea name="comment" id="msg" cols="30" rows="5" class="form-control"></textarea>
                         </div>
                         <div class="form-group">
                             <label for="name">Nombre</label>
